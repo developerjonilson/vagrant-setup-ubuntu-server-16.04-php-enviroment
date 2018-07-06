@@ -50,6 +50,9 @@ sudo a2enmod php7.1
 echo "--- Habilitando mod-rewrite do Apache ---"
 sudo a2enmod rewrite
 
+echo "--- Instalando Class DomDocument para gerar pdf com DOMPDF ---"
+sudo apt-get install php7.1-xml
+
 echo "--- Reiniciando Apache ---"
 sudo service apache2 restart
 
