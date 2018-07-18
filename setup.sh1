@@ -3,7 +3,7 @@
 echo "---- Iniciando instalacao do ambiente de Desenvolvimento PHP ---"
 
 echo "--- Atualizando lista de pacotes ---"
-sudo apt-get update
+sudo apt-get update -y
 
 echo "--- Instalando Linguagem ---"
 sudo apt-get install language-pack-pt
